@@ -1,9 +1,9 @@
-import 'package:example_flutter_cubetiq/examples/crud_screen.dart';
-import 'package:example_flutter_cubetiq/examples/fetch_data_screen.dart';
-import 'package:example_flutter_cubetiq/examples/lifecycle_screen.dart';
-import 'package:example_flutter_cubetiq/inteface/screen_interface.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:learning_flutter_with_lyhour/examples/crud_screen.dart';
+import 'package:learning_flutter_with_lyhour/examples/fetch_data_screen.dart';
+import 'package:learning_flutter_with_lyhour/examples/lifecycle_screen.dart';
+import 'package:learning_flutter_with_lyhour/inteface/screen_interface.dart';
 
 class MyApp extends StatelessWidget {
   @override

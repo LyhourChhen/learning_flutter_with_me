@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:example_flutter_cubetiq/inteface/fetch_data_interface.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:learning_flutter_with_lyhour/inteface/fetch_data_interface.dart';
 
 class FetchDataScreen extends StatefulWidget {
   static const route = '/fetchdatascreen';
