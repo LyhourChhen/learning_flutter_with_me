@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:learning_flutter_with_lyhour/examples/crud_screen.dart';
 import 'package:learning_flutter_with_lyhour/examples/fetch_data_screen.dart';
 import 'package:learning_flutter_with_lyhour/examples/lifecycle_screen.dart';
-import 'package:learning_flutter_with_lyhour/inteface/screen_interface.dart';
+import 'package:learning_flutter_with_lyhour/interface/screen_interface.dart';
 
 class MyApp extends StatelessWidget {
   @override

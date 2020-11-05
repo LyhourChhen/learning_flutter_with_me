@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:learning_flutter_with_lyhour/inteface/fetch_data_interface.dart';
+import 'package:learning_flutter_with_lyhour/interface/fetch_data_interface.dart';
 
 class FetchDataScreen extends StatefulWidget {
   static const route = '/fetchdatascreen';
@@ -18,8 +18,8 @@ class _FetchDataScreenState extends State<FetchDataScreen> {
     var dio = Dio();
     var url = 'https://jsonplaceholder.typicode.com/todos';
     dio.get(url).then((value) {
-      var recievedData = value as Response<dynamic>;
-      recievedData.data.forEach((element) => {
+      var receivedData = value;
+      receivedData.data.forEach((element) => {
             data.add(
               FetchDataInterface(
                   title: element['title'],
@@ -29,7 +29,6 @@ class _FetchDataScreenState extends State<FetchDataScreen> {
             )
           });
     }).catchError((onError) => print("err when fetch data $onError"));
-
     super.initState();
   }
 

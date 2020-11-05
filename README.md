@@ -1,10 +1,10 @@
 # Learning Flutter With Me
 
-### Cover
+### Cover Lesson
 - [ ] Layout building
 - [ ] Fetch Data
   - [ ] POST
-  - [ ] GET
+  - [x] GET
   - [ ] Delete
   - [ ] Update
 - [ ] CRUD 
@@ -12,7 +12,15 @@
 - [ ] LocalStorage
 - [ ] State, Global State
 - [ ] Async
-- [ ] LifeCycle
+- [x] LifeCycle
+- [ ] RxDart (Pub, Sub, Websocket)
+- [ ] State Management
+    - [ ] Bloc
+    - [ ] Redux 
+    - [ ] Provider
+- [ ] Animation
+    - [ ] Basic hero animation
+ 
 
 
 ### Instrutor 
